@@ -7,15 +7,15 @@ const HeroSection: React.FC = () => {
     <section id="hero" className="bg-white min-h-screen flex items-center justify-center text-center px-6 pt-16"> {/* Added pt-16 for navbar */}
       <div className="max-w-3xl">
         <img 
-          src="https://picsum.photos/150/150?grayscale" 
+          src="src/assets/profile.PNG" 
           alt="Your Name" 
           className="w-36 h-36 md:w-48 md:h-48 rounded-full mx-auto mb-8 shadow-lg border-4 border-brand-green-light"
         />
         <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-gray-900 mb-4">
-          Your Name {/* Replace with actual name */}
+          Shion Tsuchida {/* Replace with actual name */}
         </h1>
         <p className="text-xl sm:text-2xl text-gray-700 mb-8">
-          Aspiring Software Engineer | Full-Stack Developer | AI Enthusiast
+          茨城大学 理工学研究科 情報工学専攻 修士1年 
         </p>
         <div className="space-x-4">
           <a

@@ -2,9 +2,9 @@
 import React from 'react';
 import { NavLinkItem } from './types';
 
-export const GITHUB_PROFILE_URL = "https://github.com/yourusername"; // Replace with actual username
-export const TWITTER_PROFILE_URL = "https://twitter.com/yourusername"; // Replace with actual username
-export const EMAIL_ADDRESS = "youremail@example.com"; // Replace with actual email
+export const GITHUB_PROFILE_URL = "https://github.com/shion0224"; 
+export const TWITTER_PROFILE_URL = "https://x.com/New_point_123"; 
+export const EMAIL_ADDRESS = "shion8214@gmail.com"; 
 
 export const NAV_LINKS: NavLinkItem[] = [
   { href: "#about", label: "About" },

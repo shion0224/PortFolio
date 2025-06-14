@@ -10,7 +10,7 @@ const Navbar: React.FC = () => {
     <nav className="bg-white/80 backdrop-blur-md shadow-md fixed w-full z-50 top-0">
       <div className="container mx-auto px-6 py-3 flex justify-between items-center">
         <a href="#" className="text-2xl font-bold text-brand-green hover:text-brand-green-dark">
-          Your Name {/* Replace with actual name */}
+          Shion's Portfolio 
         </a>
         <div className="hidden md:flex space-x-4">
           {NAV_LINKS.map((link: NavLinkItem) => (
