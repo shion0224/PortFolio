@@ -5,10 +5,10 @@ import { GITHUB_PROFILE_URL, TWITTER_PROFILE_URL, EMAIL_ADDRESS, GitHubIcon, Twi
 
 const ContactSection: React.FC = () => {
   return (
-    <Section id="contact" className="bg-white" title="Get In Touch" subTitle="Feel free to reach out. I'm always open to discussing new projects, creative ideas, or opportunities.">
+    <Section id="contact" className="bg-white" title="連絡先" subTitle="">
       <div className="max-w-xl mx-auto text-center">
         <p className="text-gray-700 leading-relaxed mb-8">
-          Whether you have a question, a proposal, or just want to say hi, my inbox is always open.
+          連絡は以下からお願いします！
         </p>
         <div className="flex flex-col sm:flex-row justify-center items-center space-y-4 sm:space-y-0 sm:space-x-6">
           <a

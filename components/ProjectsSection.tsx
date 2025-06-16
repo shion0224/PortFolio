@@ -9,14 +9,14 @@ const projectsData: Project[] = [
   {
     id: "sleep-peep",
     title: "Sleep Peep (Internship Project)",
-    description: "A mobile application developed during an internship at [Internship Company Name] to monitor and analyze sleep patterns, providing users with insights for better sleep hygiene.",
-    techStack: ["React Native", "Firebase", "Chart.js", "Expo"],
+    description: "インターンシップ先の［企業名］で開発したモバイルアプリで、睡眠パターンを記録・分析し、より良い睡眠習慣のための気づきをユーザーに提供します。",
+    techStack: ["Deno", "JavaScript", "HTML","CSS"],
     githubLink: `${GITHUB_PROFILE_URL}/sleep-peep-example`, // Placeholder
   },
   {
     id: "minecraft-rag",
     title: "Minecraft × RAG System",
-    description: "An innovative project integrating a Retrieval Augmented Generation (RAG) system with Minecraft, allowing players to interact with an AI that can answer questions based on in-game lore and information using Gemini API.",
+    description: "Retrieval Augmented Generation（RAG）システムをMinecraftと統合した革新的なプロジェクトで、プレイヤーはゲーム内の設定や情報に基づいて、Gemini APIを利用したAIと対話しながら質問に答えてもらうことができます。",
     techStack: ["Python", "LangChain", "Gemini API", "Spigot API"],
     githubLink: `${GITHUB_PROFILE_URL}/minecraft-rag-example`, // Placeholder
   },
@@ -25,6 +25,14 @@ const projectsData: Project[] = [
     title: "Simple Matching App",
     description: "A web-based application demonstrating a basic matching algorithm, connecting users based on shared interests. Features real-time chat functionality.",
     techStack: ["React", "Node.js", "Express", "Socket.io", "MongoDB"],
+    githubLink: `${GITHUB_PROFILE_URL}/matching-app-example`, // Placeholder
+    liveLink: "#" // Placeholder
+  },
+  {
+    id: "test",
+    title: "Test",
+    description: "Test",
+    techStack: ["React"],
     githubLink: `${GITHUB_PROFILE_URL}/matching-app-example`, // Placeholder
     liveLink: "#" // Placeholder
   },

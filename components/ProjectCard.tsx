@@ -15,7 +15,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
         <h3 className="text-xl font-semibold text-gray-900 mb-2">{project.title}</h3>
         <p className="text-gray-700 text-sm leading-relaxed mb-4 flex-grow">{project.description}</p>
         <div className="mb-4">
-          <h4 className="text-sm font-semibold text-gray-600 mb-1">Technologies Used:</h4>
+          <h4 className="text-sm font-semibold text-gray-600 mb-1">使用技術:</h4>
           <div className="flex flex-wrap gap-2">
             {project.techStack.map((tech) => (
               <span key={tech} className="bg-green-100 text-brand-green text-xs font-semibold px-2.5 py-1 rounded-full">
