@@ -3,6 +3,7 @@ import React from 'react';
 import Section from './Section';
 import { UserIcon, CodeIcon, BriefcaseIcon } from '../constants'; // Explicit imports
 
+
 const AboutSection: React.FC = () => {
   const techStack = ["Python", "JavaScript", "TypeScript", "React", "Next.js", "Node.js","Deno", "Tailwind CSS", "Docker", "Git", "NLP","Fine-tuning"];
 
@@ -11,7 +12,7 @@ const AboutSection: React.FC = () => {
       <div className="grid md:grid-cols-3 gap-8 text-left">
         <div className="md:col-span-1 flex justify-center">
             <img 
-                src="public/images/profile.jpg" 
+                src="./public/images/profile.jpg"
                 alt="Profile" 
                 className="rounded-lg shadow-xl w-64 h-64 md:w-full md:h-auto object-cover"
             />
