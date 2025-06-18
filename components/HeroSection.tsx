@@ -7,7 +7,7 @@ const HeroSection: React.FC = () => {
     <section id="hero" className="bg-white min-h-screen flex items-center justify-center text-center px-6 pt-16"> {/* Added pt-16 for navbar */}
       <div className="max-w-3xl">
         <img 
-          src="src/assets/profile.PNG" 
+          src="/images/profile.jpg" 
           alt="Your Name" 
           className="w-36 h-36 md:w-48 md:h-48 rounded-full mx-auto mb-8 shadow-lg border-4 border-brand-green-light"
         />
