@@ -12,7 +12,7 @@ const AboutSection: React.FC = () => {
       <div className="grid md:grid-cols-3 gap-8 text-left">
         <div className="md:col-span-1 flex justify-center">
             <img 
-                src="./public/images/profile.jpg"
+                src="/images/profile.jpg"
                 alt="Profile" 
                 className="rounded-lg shadow-xl w-64 h-64 md:w-full md:h-auto object-cover"
             />
